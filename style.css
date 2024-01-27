@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #0066cc;
+}
+
+#data-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#pagination-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    color: #3498db;
+    transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#terms-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #555;
+}
+
+#terms-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+#terms-container li {
+    margin-bottom: 10px;
+}
+
+#terms-container li::before {
+    content: "\2022";
+    color: #3498db;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
